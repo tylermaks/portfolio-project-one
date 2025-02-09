@@ -7,6 +7,12 @@
   --foreground: #171717;
 }
 
+@layer components { 
+  .mobile-padding {
+    @apply p-8 md:p-16 lg:p-48;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
