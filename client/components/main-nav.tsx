@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function MainNav() {
     return (
-        <nav className="flex items-center justify-between flex-wrap px-16 py-6 bg-gray-800 text-white text-sm font-bold">
+        <nav className="mobile-padding flex items-center justify-between flex-wrap py-6 bg-gray-800 text-white text-sm font-bold">
             <div className="flex gap-16 items-center flex-shrink-0 text-white mr-6">
                 <Link
                     href="/"
